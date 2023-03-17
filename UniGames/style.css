@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+}
+
+#flappy {
+    margin-top: 100px;
+    margin-left: 250px;
+}
+#vs {
+    margin-top: 250px;
+    margin-left: 240px;
+}
+#futforca {
+    margin-top: 100px;
+    margin-left: 250px;
+}
+nav {
+    background: darkblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav ul {
+    list-style-type: none;
+
+
+}
+
+nav ul li {
+    color: #ecedea;
+    display: inline-block;
+
+
+}
+
+topnav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid white;
+}
+
+.topnav a:active {
+    border-bottom: 3px solid white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #ecedea;
+    padding: 15px;
+}
+
+body {
+    background-color: black;
+}
+
+form {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.container1 {
+    background-color: white;
+    max-width: 1200px;
+    max-height: 1200px;
+}
+
+#nomeid {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#foneid {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#emailid {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#mensagemid {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#endereçoid {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#validarid {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
