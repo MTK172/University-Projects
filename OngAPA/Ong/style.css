@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 35px;
+}
+
+body {
+    background-image: url(fotos/fundo.png);
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav {
+    background: #29abe2;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav ul {
+    list-style-type: none;
+
+
+}
+
+nav ul li {
+    color: #ecedea;
+    display: inline-block;
+
+
+}
+
+topnav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid black;
+}
+
+.topnav a:active {
+    border-bottom: 3px solid black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #ecedea;
+    padding: 15px;
+}
+
+main {
+    background: white;
+    font-size: 30px;
+    padding: 1rem;
+
+}
+
+main>header {
+    color: black;
+    font-weight: 800;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+#Logo {
+    position: left;
+    vertical-align: middle;
+
+}
+
+#container2 {
+    background-color: #eeebc1;
+    font-size: 30px;
+
+}
+
+#p1 {
+    font-family: cursive;
+}
+
+#fotosgaleria {
+    width: 310px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    color: inherit;
+}
+
+.fotos {
+    margin-bottom: 20px;
+    cursor: pointer;
+    line-height: 45px;
+}
+
+.fotos a {
+    background-color: brown;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.fotos p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.adote {
+    width: 24%;
+}
+
+.passos1 {
+    font-size: 20px;
+}
+
+.stepadote {
+    width: 100%;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parceiros {
+    width: 100%;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#containerfooter {
+    background-color: white;
+    max-width: 1200px;
+}
+
+#containerfooter p {
+    background-color: #29abe2;
+    border-radius: 20px;
+    max-width: 1100px;
+}
+
+#nomeid {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#foneid {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#emailid {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#mensagemid {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#endereçoid {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#validarid {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.carrossel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    width: 1100px;
+    height: 355px;
+    display: flex;
+}
+
+.containercarrossel {
+    display: flex;
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#imgcarrossel {
+    object-fit: contain;
+    width: 1100px;
+    height: 355px;
+}
+
+.porque img {
+    width: 370px;
+    height: 160px;
+    border-radius: 10px;
+    border-color: black;
+    
+}
+.porque p {
+    color: #29abe2;
+    font-family: cursive;
+    font-size: 45px;
+}
+.sobre {
+    font-family: 'Times New Roman', Times, serif;
+}
