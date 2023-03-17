@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-image: url(img/nike.jpeg);
+    background-size: contain;
+    
+}
+
+#container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#container > header {
+    background: black;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+main {
+    background: white;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+footer {
+    background: gray;
+    height: cover;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV */
+nav {
+    background: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    color: #ecedea;
+
+    display: inline-block;
+
+}
+topnav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+.topnav a:hover {
+    border-bottom: 3px solid black;
+  }
+  
+.topnav a:active {
+    border-bottom: 3px solid black;
+  }
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #ecedea;
+    padding: 15px;
+}
+
+/* MAIN */
+main > header {
+    color:black;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}   
+
+.produto { margin-bottom: 20px; cursor: pointer; }
+.produto p {
+    background-color: blue;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.produto p:hover {
+    transform: rotate(+2deg);
+        
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+h2{
+    background-color: gray;
+}
+.whatsapp-link {
+    position: fixed;
+    width: 60px;    
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center ;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+#produtosmaior {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#hiper{
+    text-decoration: none;
+    color: black;
+}
+
+Form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer1 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#carrinho {
+    color: black;
+    position: absolute;
+    top: 265px;
+    right: 470px;
+}
